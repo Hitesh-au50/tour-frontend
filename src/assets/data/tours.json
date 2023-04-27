@@ -1,0 +1,133 @@
+[
+  {
+    "title": "India",
+    "city": "Jammu Kashmir",
+    "address": "Somewhere in India",
+    "distance": 300,
+    "price": 89,
+    "maxGroupSize": 100,
+    "desc": "This place is known as heaven on earth.Such a beautiful mountain area",
+    "reviews": [],
+
+    "photo": "/tour-images/jamm1.jpg",
+    "featured": true
+  },
+  {
+    "title": "Thailand",
+    "city": "Bangkok",
+    "address": "Somewhere in Thailand",
+    "distance": 400,
+    "price": 299,
+    "maxGroupSize": 100,
+    "desc": "Glittering with lights,a lot of hustle bustle and a little bit of chaos.Beautiful place",
+    "reviews": [],
+
+    "photo": "/tour-images/Bangkok.jpg",
+    "featured": true
+  },
+  {
+    "title": "England",
+    "city": "London",
+    "address": "Somewhere in England",
+    "distance": 500,
+    "price": 249,
+    "maxGroupSize": 100,
+    "desc": "Such a endlessly fun city to explore on foot.Very beautiful city",
+    "reviews": [],
+
+    "photo": "/tour-images/london.jpg",
+    "featured": true
+  },
+  {
+    "title": "Canada",
+    "city": "Toranto",
+    "address": "Somewhere in Canada",
+    "distance": 500,
+    "price": 149,
+    "maxGroupSize": 100,
+    "desc": "Toranto is a bustling metropolis with skyscrapers dotting the skylines",
+    "reviews": [],
+
+    "photo": "/tour-images/tour-img07.jpg",
+    "featured": true
+  },
+  {
+    "title": "kerala",
+    "city": "Thiruvanthpuram",
+    "address": "Somewhere in India",
+    "distance": 500,
+    "price": 79,
+    "maxGroupSize": 100,
+    "desc": "Such a greenery place with oceans on other side.South part of india",
+    "reviews": [],
+
+    "photo": "/tour-images/tour-img08.jpg",
+    "featured": true
+  },
+  {
+    "title": "Japan",
+    "city": "Tokyo",
+    "address": "Somewhere in Japan",
+    "distance": 500,
+    "price": 279,
+    "maxGroupSize": 100,
+    "desc": "this is the description",
+    "reviews": [],
+
+    "photo": "/tour-images/tour-img06.jpg",
+    "featured": true
+  },
+  {
+    "title": "France",
+    "city": "Paris",
+    "address": "Somewhere in France",
+    "distance": 500,
+    "price": 399,
+    "maxGroupSize": 100,
+    "desc": "Fantasy castles,glorious castles and beautiful towns are major tourist attractions.",
+    "reviews": [],
+
+    "photo": "/tour-images/tour-img01.jpg",
+    "featured": true
+  },
+  {
+    "title": "Rajasthan",
+    "city": "Jaipur",
+    "address": "Somewhere in Rajasthan",
+    "distance": 500,
+    "price": 89,
+    "maxGroupSize": 100,
+    "desc": "It combines the allure of its ancient history with all the advantages of metropolis.",
+    "reviews": [],
+
+    "photo": "/tour-images/jaipur4.jpg",
+    "featured": true
+  },
+ 
+  {
+    "title": "Russia",
+    "city": "Moscow",
+    "address": "Somewhere in Russia",
+    "distance": 500,
+    "price": 179,
+    "maxGroupSize": 100,
+    "desc": "It os the heart city of Russia.Where everyone wants to go and see the masterpiece of Moscow Kremlin.",
+    "reviews": [],
+
+    "photo": "/tour-images/moscow.jpg",
+    "featured": false
+  },
+  {
+    "title": "China",
+    "city": "Beijing",
+    "address": "Somewhere in China",
+    "distance": 100,
+    "price": 399,
+    "maxGroupSize": 100,
+    "desc": "The historica artifacts around beijing are ancient:the great wall of china. ",
+    "reviews": [],
+
+    "photo": "/tour-images/china.jpg",
+    "featured": false
+  }
+]

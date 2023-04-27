@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+.footer {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footer .logo1 img {
+    width: auto;
+    height: 100px;
+    border-radius: 50%;
+    padding: 5px 0 5px 0;
+    margin-bottom: 1rem;
+}
+
+.footer .logo1 p {
+    color: var(--text-color);
+    font-family: 'Arsenal', sans-serif;
+    font-size: 1.2rem;
+}
+
+.social_links span a {
+    text-decoration: none;
+    color: var(--heading-color);
+    font-size: 1.2rem;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.footer_link-title {
+    color: var(--heading-color);
+    margin-bottom: 1rem;
+    font-family: 'Alkatra', cursive;
+    color: brown;
+}
+
+.footer_quick-links li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.footer_quick-links h6 span i {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.copyright {
+    color: var(--text-color);
+    font-size: 1rem;
+    text-align: center;
+}

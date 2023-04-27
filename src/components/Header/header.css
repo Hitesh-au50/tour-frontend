@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bangers&family=Bree+Serif&family=EB+Garamond:wght@500&family=Libre+Baskerville&family=Rubik+Pixels&family=Shantell+Sans:ital,wght@0,500;1,400&family=Signika+Negative:wght@300&display=swap');
+/* huhihi */
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bangers&family=Bree+Serif&family=EB+Garamond:wght@500&family=Fruktur&family=Libre+Baskerville&family=Rubik+Pixels&family=Shantell+Sans:ital,wght@0,500;1,400&family=Signika+Negative:wght@300&display=swap');
+
+:root {
+    --primary-color: #7B2869;
+    --secondary-color: #C85C8E;
+    --heading-color: #0b2727;
+    --text-color: #6e7074;
+    --font-name: "Montserrat", sans-serif;
+    --subtitle-font-name: "Island Moments", cursive;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+header .username {
+    font-family: 'Fruktur', cursive;
+
+}
+
+.logo span {
+    font-family: 'Fruktur', cursive;
+    font-size: 1.7rem;
+    color: #7B2869;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.menu {
+    margin-bottom: 0;
+}
+
+.nav__item a {
+    text-decoration: none;
+    color: var(--heading-color);
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-family: 'Alkatra', cursive;
+}
+
+.nav__item a:hover {
+    color: inherit;
+}
+
+.nav__item a.active__link {
+    color: var(--secondary-color);
+}
+
+.mobile__menu {
+    font-size: 1.3rem;
+    color: var(--heading-color);
+    display: none;
+}
+
+.sticky__header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    z-index: 999;
+}
+
+/* ========== make it responsive ============= */
+
+@media only screen and (max-width:992px) {
+    .logo img {
+        width: 88%;
+    }
+
+    .navigation {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.411);
+        z-index: 999;
+        display: none;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: calc(100% - 75%);
+        height: 100%;
+        background: #fff;
+        flex-direction: column;
+        line-height: 0.5rem;
+        justify-content: center;
+        z-index: 9999;
+    }
+
+    .show__menu {
+        display: block;
+    }
+
+    .mobile__menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .logo img {
+        width: 90%;
+    }
+
+    .menu {
+        width: calc(100% - 50%);
+    }
+}
